@@ -3,7 +3,7 @@
 Get programming help from the command line
 
 ## Getting Started
-Install the module by running: `npm install mayday` 
+Install the module globally by running: `npm install -g mayday` 
 
 ## Accessing web service from command line
 ```
