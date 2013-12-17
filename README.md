@@ -3,11 +3,11 @@
 Realtime support for open source software
 
 ## Getting Started
-Install the module with: `npm install mayday`
+Install the module by cloning the repo and running: `npm link` 
 
-```javascript
-var mayday = require('mayday');
-mayday.awesome(); // "awesome"
+## Accessing web service from command line
+```Command Line
+mayday factor
 ```
 
 ## Documentation
@@ -23,5 +23,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 _(Nothing yet)_
 
 ## License
-Copyright (c) 2013 Nick  
+Copyright (c) 2013 nicktesla  
 Licensed under the MIT license.
