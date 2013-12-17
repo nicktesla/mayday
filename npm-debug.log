@@ -1,0 +1,144 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/Olaosebikan/.nvm/v0.10.21/bin/node',
+1 verbose cli   '/Users/Olaosebikan/.nvm/v0.10.21/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/Olaosebikan/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/0y/by24pddj38jct5nwjd7hr6fm0000gn/T/npm-48629-YoTS2WJB/1387305464864-0.4955980379600078/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/0y/by24pddj38jct5nwjd7hr6fm0000gn/T/npm-48629-YoTS2WJB/1387305464864-0.4955980379600078/tmp.tgz
+12 verbose folder .
+13 silly lockFile 1f1177db-tar tar://.
+14 verbose lock tar://. /Users/Olaosebikan/.npm/1f1177db-tar.lock
+15 silly lockFile ba9af1b6-64864-0-4955980379600078-tmp-tgz tar:///var/folders/0y/by24pddj38jct5nwjd7hr6fm0000gn/T/npm-48629-YoTS2WJB/1387305464864-0.4955980379600078/tmp.tgz
+16 verbose lock tar:///var/folders/0y/by24pddj38jct5nwjd7hr6fm0000gn/T/npm-48629-YoTS2WJB/1387305464864-0.4955980379600078/tmp.tgz /Users/Olaosebikan/.npm/ba9af1b6-64864-0-4955980379600078-tmp-tgz.lock
+17 silly lockFile 1f1177db-tar tar://.
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile ba9af1b6-64864-0-4955980379600078-tmp-tgz tar:///var/folders/0y/by24pddj38jct5nwjd7hr6fm0000gn/T/npm-48629-YoTS2WJB/1387305464864-0.4955980379600078/tmp.tgz
+20 silly lockFile ba9af1b6-64864-0-4955980379600078-tmp-tgz tar:///var/folders/0y/by24pddj38jct5nwjd7hr6fm0000gn/T/npm-48629-YoTS2WJB/1387305464864-0.4955980379600078/tmp.tgz
+21 verbose tar unpack /var/folders/0y/by24pddj38jct5nwjd7hr6fm0000gn/T/npm-48629-YoTS2WJB/1387305464864-0.4955980379600078/tmp.tgz
+22 silly lockFile e2d60fd0-64864-0-4955980379600078-package tar:///var/folders/0y/by24pddj38jct5nwjd7hr6fm0000gn/T/npm-48629-YoTS2WJB/1387305464864-0.4955980379600078/package
+23 verbose lock tar:///var/folders/0y/by24pddj38jct5nwjd7hr6fm0000gn/T/npm-48629-YoTS2WJB/1387305464864-0.4955980379600078/package /Users/Olaosebikan/.npm/e2d60fd0-64864-0-4955980379600078-package.lock
+24 silly lockFile ba9af1b6-64864-0-4955980379600078-tmp-tgz tar:///var/folders/0y/by24pddj38jct5nwjd7hr6fm0000gn/T/npm-48629-YoTS2WJB/1387305464864-0.4955980379600078/tmp.tgz
+25 verbose lock tar:///var/folders/0y/by24pddj38jct5nwjd7hr6fm0000gn/T/npm-48629-YoTS2WJB/1387305464864-0.4955980379600078/tmp.tgz /Users/Olaosebikan/.npm/ba9af1b6-64864-0-4955980379600078-tmp-tgz.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm extractEntry .npmignore
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry Gruntfile.js
+31 silly gunzTarPerm extractEntry LICENSE-MIT
+32 silly gunzTarPerm extractEntry .jshintrc
+33 silly gunzTarPerm extractEntry lib/mayday.js
+34 silly gunzTarPerm extractEntry .travis.yml
+35 silly gunzTarPerm extractEntry test/mayday_test.js
+36 silly lockFile e2d60fd0-64864-0-4955980379600078-package tar:///var/folders/0y/by24pddj38jct5nwjd7hr6fm0000gn/T/npm-48629-YoTS2WJB/1387305464864-0.4955980379600078/package
+37 silly lockFile e2d60fd0-64864-0-4955980379600078-package tar:///var/folders/0y/by24pddj38jct5nwjd7hr6fm0000gn/T/npm-48629-YoTS2WJB/1387305464864-0.4955980379600078/package
+38 silly lockFile ba9af1b6-64864-0-4955980379600078-tmp-tgz tar:///var/folders/0y/by24pddj38jct5nwjd7hr6fm0000gn/T/npm-48629-YoTS2WJB/1387305464864-0.4955980379600078/tmp.tgz
+39 silly lockFile ba9af1b6-64864-0-4955980379600078-tmp-tgz tar:///var/folders/0y/by24pddj38jct5nwjd7hr6fm0000gn/T/npm-48629-YoTS2WJB/1387305464864-0.4955980379600078/tmp.tgz
+40 verbose tar pack [ '/Users/Olaosebikan/.npm/mayday/0.0.1/package.tgz',
+40 verbose tar pack   '/var/folders/0y/by24pddj38jct5nwjd7hr6fm0000gn/T/npm-48629-YoTS2WJB/1387305464864-0.4955980379600078/package' ]
+41 verbose tarball /Users/Olaosebikan/.npm/mayday/0.0.1/package.tgz
+42 verbose folder /var/folders/0y/by24pddj38jct5nwjd7hr6fm0000gn/T/npm-48629-YoTS2WJB/1387305464864-0.4955980379600078/package
+43 silly lockFile e2d60fd0-64864-0-4955980379600078-package tar:///var/folders/0y/by24pddj38jct5nwjd7hr6fm0000gn/T/npm-48629-YoTS2WJB/1387305464864-0.4955980379600078/package
+44 verbose lock tar:///var/folders/0y/by24pddj38jct5nwjd7hr6fm0000gn/T/npm-48629-YoTS2WJB/1387305464864-0.4955980379600078/package /Users/Olaosebikan/.npm/e2d60fd0-64864-0-4955980379600078-package.lock
+45 silly lockFile c115845f-kan-npm-mayday-0-0-1-package-tgz tar:///Users/Olaosebikan/.npm/mayday/0.0.1/package.tgz
+46 verbose lock tar:///Users/Olaosebikan/.npm/mayday/0.0.1/package.tgz /Users/Olaosebikan/.npm/c115845f-kan-npm-mayday-0-0-1-package-tgz.lock
+47 silly lockFile e2d60fd0-64864-0-4955980379600078-package tar:///var/folders/0y/by24pddj38jct5nwjd7hr6fm0000gn/T/npm-48629-YoTS2WJB/1387305464864-0.4955980379600078/package
+48 silly lockFile e2d60fd0-64864-0-4955980379600078-package tar:///var/folders/0y/by24pddj38jct5nwjd7hr6fm0000gn/T/npm-48629-YoTS2WJB/1387305464864-0.4955980379600078/package
+49 silly lockFile c115845f-kan-npm-mayday-0-0-1-package-tgz tar:///Users/Olaosebikan/.npm/mayday/0.0.1/package.tgz
+50 silly lockFile c115845f-kan-npm-mayday-0-0-1-package-tgz tar:///Users/Olaosebikan/.npm/mayday/0.0.1/package.tgz
+51 silly lockFile a7e3c7e4-sebikan-npm-mayday-0-0-1-package /Users/Olaosebikan/.npm/mayday/0.0.1/package
+52 verbose lock /Users/Olaosebikan/.npm/mayday/0.0.1/package /Users/Olaosebikan/.npm/a7e3c7e4-sebikan-npm-mayday-0-0-1-package.lock
+53 silly lockFile a7e3c7e4-sebikan-npm-mayday-0-0-1-package /Users/Olaosebikan/.npm/mayday/0.0.1/package
+54 silly lockFile a7e3c7e4-sebikan-npm-mayday-0-0-1-package /Users/Olaosebikan/.npm/mayday/0.0.1/package
+55 verbose tar unpack /Users/Olaosebikan/.npm/mayday/0.0.1/package.tgz
+56 silly lockFile f23053c6-sebikan-npm-mayday-0-0-1-package tar:///Users/Olaosebikan/.npm/mayday/0.0.1/package
+57 verbose lock tar:///Users/Olaosebikan/.npm/mayday/0.0.1/package /Users/Olaosebikan/.npm/f23053c6-sebikan-npm-mayday-0-0-1-package.lock
+58 silly lockFile c115845f-kan-npm-mayday-0-0-1-package-tgz tar:///Users/Olaosebikan/.npm/mayday/0.0.1/package.tgz
+59 verbose lock tar:///Users/Olaosebikan/.npm/mayday/0.0.1/package.tgz /Users/Olaosebikan/.npm/c115845f-kan-npm-mayday-0-0-1-package-tgz.lock
+60 silly gunzTarPerm modes [ '755', '644' ]
+61 silly gunzTarPerm extractEntry package.json
+62 silly gunzTarPerm extractEntry .npmignore
+63 silly gunzTarPerm extractEntry README.md
+64 silly gunzTarPerm extractEntry Gruntfile.js
+65 silly gunzTarPerm extractEntry .jshintrc
+66 silly gunzTarPerm extractEntry .travis.yml
+67 silly gunzTarPerm extractEntry LICENSE-MIT
+68 silly gunzTarPerm extractEntry lib/mayday.js
+69 silly gunzTarPerm extractEntry test/mayday_test.js
+70 silly lockFile f23053c6-sebikan-npm-mayday-0-0-1-package tar:///Users/Olaosebikan/.npm/mayday/0.0.1/package
+71 silly lockFile f23053c6-sebikan-npm-mayday-0-0-1-package tar:///Users/Olaosebikan/.npm/mayday/0.0.1/package
+72 silly lockFile c115845f-kan-npm-mayday-0-0-1-package-tgz tar:///Users/Olaosebikan/.npm/mayday/0.0.1/package.tgz
+73 silly lockFile c115845f-kan-npm-mayday-0-0-1-package-tgz tar:///Users/Olaosebikan/.npm/mayday/0.0.1/package.tgz
+74 verbose chmod /Users/Olaosebikan/.npm/mayday/0.0.1/package.tgz 644
+75 verbose chown /Users/Olaosebikan/.npm/mayday/0.0.1/package.tgz [ 501, 20 ]
+76 silly lockFile 3a52ce78- .
+77 silly lockFile 3a52ce78- .
+78 silly publish { name: 'mayday',
+78 silly publish   description: 'Get programming help from the command line',
+78 silly publish   version: '0.0.1',
+78 silly publish   homepage: '',
+78 silly publish   author: { name: 'Nick', email: 'nickteslacodes@gmail.com' },
+78 silly publish   repository: { type: 'git', url: 'git://github.com/nicktesla/mayday.git' },
+78 silly publish   licenses: [ { type: 'MIT', url: '/blob/master/LICENSE-MIT' } ],
+78 silly publish   main: 'lib/mayday',
+78 silly publish   engines: { node: '>= 0.8.0' },
+78 silly publish   scripts: { test: 'grunt nodeunit' },
+78 silly publish   dependencies: { open: '0.0.4' },
+78 silly publish   devDependencies:
+78 silly publish    { 'grunt-contrib-jshint': '~0.6.4',
+78 silly publish      'grunt-contrib-nodeunit': '~0.2.0',
+78 silly publish      'grunt-contrib-watch': '~0.5.3',
+78 silly publish      grunt: '~0.4.2' },
+78 silly publish   keywords: [],
+78 silly publish   preferGlobal: 'true',
+78 silly publish   bin: { mayday: 'lib/mayday.js' },
+78 silly publish   readme: '# mayday \n\nGet programming help from the command line\n\n## Getting Started\n\nInstall the module globally by running: `npm install -g mayday` \n\n## Accessing web service from command line\n```\nmayday factor\n```\n\n## Documentation\n_(Coming soon)_\n\n## Examples\n_(Coming soon)_\n\n## Contributing\nIn lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).\n\n## Release History\n_(Nothing yet)_\n\n## License\nCopyright (c) 2013 nicktesla  \nLicensed under the MIT license.\n\n',
+78 silly publish   readmeFilename: 'README.md',
+78 silly publish   _id: 'mayday@0.0.1',
+78 silly publish   dist: { shasum: '6ca82e1234d01ec4e1dd2877048d10aaa97b56e6' },
+78 silly publish   _from: '.' }
+79 verbose url raw mayday
+80 verbose url resolving [ 'https://registry.npmjs.org/', './mayday' ]
+81 verbose url resolved https://registry.npmjs.org/mayday
+82 info trying registry request attempt 1 at 10:38:01
+83 http PUT https://registry.npmjs.org/mayday
+84 http 409 https://registry.npmjs.org/mayday
+85 verbose url raw mayday
+86 verbose url resolving [ 'https://registry.npmjs.org/', './mayday' ]
+87 verbose url resolved https://registry.npmjs.org/mayday
+88 info trying registry request attempt 1 at 10:38:06
+89 http GET https://registry.npmjs.org/mayday
+90 http 200 https://registry.npmjs.org/mayday
+91 error publish fail Cannot publish over existing version.
+91 error publish fail Update the 'version' field in package.json and try again.
+91 error publish fail
+91 error publish fail If the previous version was published in error, see:
+91 error publish fail     npm help unpublish
+91 error publish fail
+91 error publish fail To automatically increment version numbers, see:
+91 error publish fail     npm help version
+92 error System Darwin 12.2.1
+93 error command "/Users/Olaosebikan/.nvm/v0.10.21/bin/node" "/Users/Olaosebikan/.nvm/v0.10.21/bin/npm" "publish"
+94 error cwd /Users/Olaosebikan/mayday
+95 error node -v v0.10.21
+96 error npm -v 1.3.11
+97 error code EPUBLISHCONFLICT
+98 verbose exit [ 1, true ]
