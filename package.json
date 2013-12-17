@@ -1,0 +1,44 @@
+{
+  "name": "mayday",
+  "description": "Realtime support for open source software",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "Nick",
+    "email": "nickteslacodes@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nicktesla/mayday.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/mayday",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "dependencies": {
+    "open": "0.0.4"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.2"
+  },
+  "keywords": [],
+  "preferGlobal": "true",
+  "bin": {
+    "mayday" : "lib/mayday.js"
+  }
+}
