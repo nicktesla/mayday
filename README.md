@@ -3,10 +3,10 @@
 Realtime support for open source software
 
 ## Getting Started
-Install the module by cloning the repo and running: `npm link` 
+Install the module by running: `npm install mayday` 
 
 ## Accessing web service from command line
-```Command Line
+```
 mayday factor
 ```
 
@@ -25,3 +25,4 @@ _(Nothing yet)_
 ## License
 Copyright (c) 2013 nicktesla  
 Licensed under the MIT license.
+
