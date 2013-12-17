@@ -1,6 +1,6 @@
-# mayday [![Build Status](https://secure.travis-ci.org/Olaosebikan/mayday.png?branch=master)](http://travis-ci.org/Olaosebikan/mayday)
+# mayday 
 
-Realtime support for open source software
+Get programming help from the command line
 
 ## Getting Started
 Install the module by running: `npm install mayday` 
